@@ -17,3 +17,9 @@
   * A null value is not the same as a value with zero in a numeric field.
   * A null value is not the same as blank in a character field.
 * *Constraints* - Restrictions to the data that someone can enter into a database table.
+* *Data Definition Language (DDL)* - Use to create a database, modify its structure, and erase it.
+* *Data Manipulation Language (DML)* - Performs database maintenance like entering, changing, removing, and retrieving data.
+* *Data Control Language (DCL)* - Protect the database from being corrupted and provide security.
+
+### Creating a database
+1. 
