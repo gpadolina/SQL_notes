@@ -19,7 +19,7 @@ WHERE State = 'CA';
 ```
 CREATE TABLE CUSTOMERS (
     CustomerID          INTEGER         PRIMARY KEY,
-    FirstName           CHAR (15),
+    FirstName           CHAR (15)       NOT NULL,
     LastName            CHAR (15),
     Adress              CHAR (15),
     City                CHAR (15),
@@ -30,10 +30,10 @@ CREATE TABLE CUSTOMERS (
 ### Altering a table
 ```
 ALTER TABLE CLIENTS
-ADD COLUMN Email CHAR(20);
+ADD COLUMN Email CHAR(20); # ADD a column
 
 ALTER TABLE CLIENTS
-DROP COLUMN PhoneNumber;
+DROP COLUMN PhoneNumber;   # DROP a column
 ```
 
 ### Deleting a table
@@ -55,4 +55,25 @@ Indexes will be deleted when you drop a table using the `DROP TABLE` statement.
      they must have the same data type.
     
 ### Keys
-  1. **Primary keys**
+A key is an attribute that uniquely identifies a row in a table. A key must never contain a null value.
+  1. **Primary keys** - a column or combination of columns in a table with values that uniquely idenfity the rows
+                        in a table. Primary keys cant have a null value.
+  2. **Foreign keys** - a column or group of columns in a table that corresponds to or references a primary key in
+                        another table in the database. It doesn't have to be unique, but it must uniquely identify the
+                        particular table that the key references.
+                        
+### Referential integrity
+* In most well-designed multitable databases, every table contains at least one column that refers to a column in another
+table in the database. These references are important for maintaining the overall integrity of the database.
+* Relationships among tables are generally not bidirectional. One table is usually dependent on the other, which is called parent-child relationship.
+
+### Constraints
+  1. Table constraints
+    ```
+    CREATE TABLE TESTS (
+        FirstName       CHAR (15)       NOT NULL,
+        Score           Numeric (4, 2)
+            CHECK (Score >= 0.0
+            AND Score <= 100.0));
+    ```
+ 2. 
