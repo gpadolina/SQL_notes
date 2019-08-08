@@ -87,3 +87,15 @@ CREATE TABLE CUSTOMERS (
      State               CHAR (15)
      PhoneNumber         CHAR (15);
 ```
+
+### Normalization
+* First normal form
+    * Each column must have a unique name.
+    * The table is two-dimensional with rows and columns.
+    * Each cell must have only a single value.
+* Second normal form
+    * Be in 1NF
+    * All table in 1NF must have a unique primary key.
+* Third normal form
+    * Be in 2NF
+    * Must have no transitive functional dependencies (ie. one attribut depends on a second, which depends on a third)
