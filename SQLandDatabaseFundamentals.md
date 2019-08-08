@@ -119,11 +119,11 @@ CREATE VIEW MALE_CUST AS
  * **GRANT**
  ```
  GRANT SELECT ON CLIENTS                    # SELECT can also be replaced with INSERT, UPDATE, DELETE
-       TO POLICY_MANAGER WITH GRANT OPTION; # Enables manager to see CLIENTS tables. WITH GRANT OPTION gives the manager
-                                              permission to grant access to anyone.
+       TO POLICY_MANAGER WITH GRANT OPTION; # Enables manager to see CLIENTS tables. WITH GRANT OPTION 
+                                              gives the manager permission to grant access to anyone.
        
  GRANT SELECT ON CLIENTS
-       TO PUBLIC;                            # Enables anyone to see CLIENTS table
+       TO PUBLIC;                           # Enables anyone to see CLIENTS table
  ```
  * **REVOKE**
  
