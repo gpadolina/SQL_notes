@@ -43,3 +43,12 @@ DROP TABLE CLIENTS;
 
 ### Deleting an index
 Indexes will be deleted when you drop a table using the `DROP TABLE` statement.
+
+### Database design
+    1. Defining objects - Think of all the objects you can think of and don't worry yet about their relation to each other. Some of it might be major entities.
+    2. Identify tables and columns - Major entities translate into database tables and each major entity has a set of attributes - the table columns. When deciding how to structure tables, involve the future users of the database and their level of access.
+    3. Defining tables - Decide what attributes (columns) to include in your table and make sure that each table relate to each other by the attributes. Attributes can have different name but they must have the same data type.
+    
+### Keys
+    * **Primary keys** 
+    2. 
