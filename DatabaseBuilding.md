@@ -6,3 +6,12 @@ Rapid application development (RAD) such Microsoft Access development environmen
 * Indexes can be updated much faster than sorting a table.
 * Since primary keys are the fastest eay to access data, they should always be indexed.
 * Indexing frequently used fields to access records is always a good idea.
+
+SQL data definition language can be used in Microsoft Access to build databases just as how you would build databases in other server DBMS.
+```
+SELECT *
+FROM CUSTOMERS
+WHERE State = 'CA';
+```
+
+### Creating a table
