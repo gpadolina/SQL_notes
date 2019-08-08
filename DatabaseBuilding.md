@@ -1,4 +1,4 @@
-Rapid application development (RAD) such Microsoft Access development environment and SQL DDL can be used to build databases. Just a matter of preference.
+Rapid application development (RAD) such Microsoft Access development environment and SQL DDL can be used to build databases but being proficient at both can be worthwhile. 
 
 ### Indexing
 
