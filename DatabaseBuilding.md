@@ -69,11 +69,11 @@ table in the database. These references are important for maintaining the overal
 
 ### Constraints
   1. Table constraints
-    ```
-    CREATE TABLE TESTS (
+        ```
+     CREATE TABLE TESTS (
         FirstName       CHAR (15)       NOT NULL,
         Score           Numeric (4, 2)
             CHECK (Score >= 0.0
             AND Score <= 100.0));
-    ```
+        ```
  2. 
