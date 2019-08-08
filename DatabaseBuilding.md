@@ -68,22 +68,22 @@ table in the database. These references are important for maintaining the overal
 * Relationships among tables are generally not bidirectional. One table is usually dependent on the other, which is called parent-child relationship.
 
 ### Constraints
-  1. Column constraints
-        ```
-     CREATE TABLE TESTS (
-        FirstName       CHAR (15)       NOT NULL,
-        Score           Numeric (4, 2)
-            CHECK (Score >= 0.0
-            AND Score <= 100.0));
-        ```
- 2. Table constraints
- ```
-     CREATE TABLE CUSTOMERS (
-         CustomerID          INTEGER         PRIMARY KEY,
-         FirstName           CHAR (15)       NOT NULL,
-         LastName            CHAR (15),
-         Adress              CHAR (15),
-         City                CHAR (15),
-         State               CHAR (15),
-         PhoneNumber         CHAR (15);
+1. Column constraints
+```
+CREATE TABLE TESTS (
+    FirstName       CHAR (15)       NOT NULL,
+    Score           Numeric (4, 2)
+         CHECK (Score >= 0.0
+         AND Score <= 100.0));
+```
+2. Table constraints
+```
+CREATE TABLE CUSTOMERS (
+     CustomerID          INTEGER         PRIMARY KEY,
+     FirstName           CHAR (15)       NOT NULL,
+     LastName            CHAR (15),
+     Adress              CHAR (15),
+     City                CHAR (15),
+     State               CHAR (15)
+     PhoneNumber         CHAR (15);
 ```
