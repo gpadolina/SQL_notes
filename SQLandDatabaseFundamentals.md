@@ -85,3 +85,30 @@ CREATE VIEW MALE_CUST AS
      FROM CLIENTS
      WHERE Age < 35 AND State = 'CA';
  ```
+
+ * **MAX** - Return the maximum value that occurs in the specified column.
+ ```
+ SELECT FirstName, LastName, Age
+     FROM CLIENTS
+     WHERE Age = (SELECT MAX(Age) FROM CLIENTS);
+ ```
+ 
+ * **MIN** - Opposite of max.
+ ```
+ SELECT FirstName, LastName, Age
+     FROM CLIENTS
+     WHERE Age = (SELECT MIN(Age) FROM CLIENTS);
+ ```
+ 
+ * **SUM** - Adds up the values in the specified column.
+ ```
+ SELECT SUM(Age)
+ FROM CLIENTS;
+ ```
+ 
+ * **AVG** - Return the average of all the value in specified column.
+ ```
+ SELECT AVG(Age)
+ FROM CLIENTS;
+ ```
+ 
