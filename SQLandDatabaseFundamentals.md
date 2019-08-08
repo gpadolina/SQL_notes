@@ -103,12 +103,12 @@ CREATE VIEW MALE_CUST AS
  * **SUM** - Adds up the values in the specified column.
  ```
  SELECT SUM(Age)
- FROM CLIENTS;
+     FROM CLIENTS;
  ```
  
  * **AVG** - Return the average of all the value in specified column.
  ```
  SELECT AVG(Age)
- FROM CLIENTS;
+     FROM CLIENTS;
  ```
  
