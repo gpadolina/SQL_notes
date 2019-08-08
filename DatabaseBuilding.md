@@ -1,4 +1,4 @@
-Microsoft Access development environment can be used to build a database.
+Rapid application development can be used to build databases such Microsoft Access development environment.
 
 ### Indexing
 
