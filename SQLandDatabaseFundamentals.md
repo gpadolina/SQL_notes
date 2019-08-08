@@ -20,6 +20,68 @@
 * *Data Definition Language (DDL)* - Use to create a database, modify its structure, and erase it.
 * *Data Manipulation Language (DML)* - Performs database maintenance like entering, changing, removing, and retrieving data.
 * *Data Control Language (DCL)* - Protect the database from being corrupted and provide security.
+* *Physical schema* - Represent the physical arrangement of the data and its associated items such as indexes.
+* *Catalog* - Collection of schemas.
 
 ### Creating a database
-1. 
+1. Identify all tables.
+2. Define the columns that each table must contain.
+3. Give each table a primary key that is unique.
+4. Make sure that every table in the database has at least one column in common with one another.
+5. Ensure the prevention of insertion, deletion, and update anomalies.
+
+### Creating a table
+```
+CREATE TABLE CLIENTS (
+  FirstName     CHAR (10),     NOT NULL
+  LastName      CHAR (10),     NOT NULL,
+  Age           CHAR (10),
+  Street        CHAR (10),
+  City          CHAR (10),
+  State         CHAR (10) );
+```
+
+### Altering a table
+```
+ALTER TABLE
+```
+
+### Dropping a table
+```
+DROP TABLE
+```
+
+### Creating a view
+```
+CREATE VIEW CA_CLIENTS AS
+   SELECT FirstName, LastName
+      FROM CLIENTS
+      WHERE CLIENTS.State = 'CA';
+```
+
+### Joining two tables as a view
+```
+CREATE VIEW MALE_CUST AS
+   SELECT FirstName, LastName
+      FROM CLIENTS JOIN INVOICE
+      USING (CustomerID);
+```
+### Data Definition Language (DDL)
+ * **CREATE** - Use to build essential structures of the database including schemas, domains, tables, and views.
+ * **ALTER** - Use to change structures that has been created.
+ * **DROP** - Use to destroy structures that has been created such as table from a database schema.
+ 
+### Data Manipulation Language (DML)
+ * **INSERT**
+ * **UPDATE**
+ * **DELETE**
+ * **MERGE**
+ * **SELECT**
+ 
+### Aggregation functions
+ * **COUNT** - Returns the number of rows
+ ```
+ SELECT COUNT (*)
+     FROM CLIENTS
+     WHERE Age < 35 AND State = 'CA';
+ ```
