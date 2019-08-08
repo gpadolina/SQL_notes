@@ -22,6 +22,7 @@
 * *Data Control Language (DCL)* - Protect the database from being corrupted and provide security.
 * *Physical schema* - Represent the physical arrangement of the data and its associated items such as indexes.
 * *Catalog* - Collection of schemas.
+* *Transactions* - SQL records every operation performed on the data during a transaction. The system can be restored using `ROLLBACK` if the `COMMIT` statement ends the transaction.
 
 ### Creating a database
 1. Identify all tables.
@@ -112,3 +113,21 @@ CREATE VIEW MALE_CUST AS
      FROM CLIENTS;
  ```
  
+### Data Control Language (DCL)
+ * **COMMIT**
+ * **ROLLBACK**
+ * **GRANT**
+ ```
+ GRANT SELECT ON CLIENTS                    # SELECT can also be replaced with INSERT, UPDATE, DELETE
+       TO POLICY_MANAGER WITH GRANT OPTION; # Enables manager to see CLIENTS tables. WITH GRANT OPTION gives the manager
+                                              permission to grant access to anyone.
+       
+ GRANT SELECT ON CLIENTS
+       TO PUBLIC;                            # Enables anyone to see CLIENTS table
+ ```
+ * **REVOKE**
+ 
+ * #### Users and priveleges
+   * As the owner of a schema, you can grant access priveleges to the users specifically. SQL supports different kinds of protection such as seeing, adding, modifying, deleting, referencing, and using databases.
+ * #### Protected objects
+   * Tables, columns, views, domains, character sets, translations
