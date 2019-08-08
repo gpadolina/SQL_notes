@@ -1,4 +1,4 @@
-Rapid application development can be used to build databases such Microsoft Access development environment.
+Rapid application development (RAD) can be used to build databases such Microsoft Access development environment.
 
 ### Indexing
 
