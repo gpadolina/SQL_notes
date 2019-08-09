@@ -1,3 +1,5 @@
+## Manipulation
+
 ### Retrieving data
 Retrieving data has the following form
 ```
@@ -46,3 +48,15 @@ SELECT FirstName, LastName
 FROM CUSTOMERS
 WHERE State = 'CA';
 ```
+
+### Updating existing data
+```
+UPDATE table_name
+SET column_1 = expression_1, column_2 = expression_2, ..., column_n = expression_n
+WHERE condition;
+
+UPDATE CUSTOMERS
+SET AreaCode = '415'
+WHERE City = 'San Francisco';
+```
+
