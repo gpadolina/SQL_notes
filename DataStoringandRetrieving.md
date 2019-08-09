@@ -110,3 +110,24 @@ FROM STUDENT_INFO
 WHERE StuPeriod OVERLAPS
 PERIOD (DATE('2019-01-01'), DATE('2019-01-01'));
 ```
+
+## Value specification
+
+### Variables
+It's best to replace literals with variables when doing updates.
+```
+UPDATE INVENTORY
+  SET Price = Cost * :multiplierA
+  WHERE Product = 'Selvedge'
+  AND Class = 'A'
+UPDATE INVENTORY
+  SET Price = Cost * :multiplierB
+  WHERE Product = 'Coat'
+  AND Class = 'B'
+UPDATE INVENTORY
+  SET Price = Cost * :multiplierC
+  WHERE Product = 'Dress'
+  AND Class = 'C';
+```
+When we need to update the inventory again, we can just the value of the variables to make it easier.
+These are called host variables when used in embedded SQL.
