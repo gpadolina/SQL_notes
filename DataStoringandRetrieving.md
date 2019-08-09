@@ -131,3 +131,43 @@ UPDATE INVENTORY
 ```
 When we need to update the inventory again, we can just the value of the variables to make it easier.
 These are called host variables when used in embedded SQL.
+
+## Functions
+
+### Substring
+We can extract a subtring from a string by doing the following
+```
+SUBSTRING (string_value FROM start [FOR length])
+
+SELECT *
+FROM INVENTORY
+WHERE SUBTRING (Shirts FROM 5 FOR 4) = 'Solid';
+```
+
+### Upper
+Converts a character string to all-uppercase.
+```
+UPPER ('Technology')
+```
+
+### Lower
+The opposite of upper.
+```
+LOWER ('TECHNOLOGY')
+```
+
+### Trim
+```
+TRIM (LEADING ' ' FROM ' cat ')
+TRIM (TRAILING ' ' FROM ' cat ')
+TRIM (BOTH ' ' FROM ' cat ')
+```
+
+### Position
+Searches for a specified target string within the source.
+```
+POSITION (target IN source [USING char length units])    # character string syntax
+POSITION (target IN source)                              # binary string syntax
+```
+
+Other functions are available. Please see a documentation.
