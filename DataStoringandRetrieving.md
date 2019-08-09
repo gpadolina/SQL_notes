@@ -70,3 +70,9 @@ WHEN NOT MATCHED THEN INSERT                    # Optional
 (table_name.column, table_name.column_n)
 VALUES (table_name2.column, value);
 ```
+
+### Deleting data
+```
+DELETE FROM table
+WHERE column = condition, ..., column_n = condition_n
+```
