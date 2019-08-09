@@ -88,9 +88,9 @@ CREATE TABLE STUDENT_INFO (
   StudentStart      DATE,
   StudentEnd        DATE,
   StudentYear       CHAR(15),
-  PERIOD FOR StudPeriod (StudentStart, StudentEnd));
+  PERIOD FOR StuPeriod (StudentStart, StudentEnd));
 ```
-
+Examples:
 ```
 SELECT *
 FROM STUDENT_INFO
@@ -98,4 +98,15 @@ WHERE StudentStart <= CURRENT_DATE()
 AND StudentEnd > CURRENT_DATE();
 ```
 
+```
+SELECT *
+FROM STUDENT_INFO
+WHERE StuPeriod CONTAINS CURRENT_DATE();
+```
 
+```
+SELECT *
+FROM STUDENT_INFO
+WHERE StuPeriod OVERLAPS
+PERIOD (DATE('2019-01-01'), DATE('2019-01-01'));
+```
