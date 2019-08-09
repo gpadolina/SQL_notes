@@ -60,3 +60,13 @@ SET AreaCode = '415'
 WHERE City = 'San Francisco';
 ```
 
+### Transferring data using merge
+```
+MERGE INTO table_name
+USING table_name2
+ON (table_name.column = table_name2.column)
+WHEN MATCHED THEN DELETE                        # Optional
+WHEN NOT MATCHED THEN INSERT                    # Optional
+(table_name.column, table_name.column_n)
+VALUES (table_name2.column, value);
+```
