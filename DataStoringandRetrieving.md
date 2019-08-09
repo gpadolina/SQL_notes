@@ -76,3 +76,26 @@ VALUES (table_name2.column, value);
 DELETE FROM table
 WHERE column = condition, ..., column_n = condition_n
 ```
+
+## Temporal data
+* *Period* - A named table component that captures the period start and period end.
+* *Valid time* - Time during which a row in a table correctly reflects reality.
+* *Transaction time* - Time during which a row is committed to or recorded in a database.
+
+```
+CREATE TABLE STUDENT_INFO (
+  StudentID         INTEGER,
+  StudentStart      DATE,
+  StudentEnd        DATE,
+  StudentYear       CHAR(15),
+  PERIOD FOR StudPeriod (StudentStart, StudentEnd));
+```
+
+```
+SELECT *
+FROM STUDENT_INFO
+WHERE StudentStart <= CURRENT_DATE()
+AND StudentEnd > CURRENT_DATE();
+```
+
+
