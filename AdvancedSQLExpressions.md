@@ -68,3 +68,39 @@ SELECT *
 FROM CUSTOMERS
 WHERE CUSTOMERS.ID = CAST (PROSPECT.ID AS INTEGER)
 ```
+
+## Modifying clauses
+Modifying cluases available in SQL are FROM, WHERE, HAVING, GROUP BY, and ORDER BY. They must appear in the following order:
+```
+SELECT column_list
+FROM table                      # Specifies the table
+WHERE search_condition          # Filters out rows
+GROUP BY grouping_column        # Separates rows into groups
+HAVING search_condition         # Filters out groups
+ORDER BY ordering_condition;    # Sorths the results of prior clauses
+```
+
+### WHERE
+```
+SELECT column_list
+FROM table_name
+WHERE condition;
+```
+
+### BETWEEN
+```
+SELECT FirstName, LastName
+FROM GRADES
+WHERE GRADES.Score BETWEEN 80 AND 100
+```
+
+### IN and NOT IN
+```
+SELECT FirstName, LastName
+FROM CUSTOMERS
+WHERE State IN ('CA', 'NY', 'NJ')
+
+SELECT FirstName, LastName
+FROM CUSTOMERS
+WHERE State NOT IN ('CA', 'NY', 'NJ')
+```
