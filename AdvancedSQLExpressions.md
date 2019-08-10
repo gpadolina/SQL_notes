@@ -121,3 +121,68 @@ SELECT FirstName, LastName
 FROM CUSTOMERS
 WHERE Phone IS NOT NULL;
 ```
+
+### UNIQUE
+Unique predicate is use with a subquery.
+```
+SELECT FirstName, LastName
+FROM CUSTOMER
+WHERE UNIQUE
+  (SELECT OrdersID FROM ORDERS
+   WHERE ... )
+```
+
+### DISTINCT
+Distinct is similar to unique except it is use for nulls.
+
+## Logical connectives
+
+### AND
+Multiple conditions must be true to get results when using `AND`.
+```
+SELECT FirstName, LastName
+FROM CUSTOMERS
+WHERE State = 'CA' AND State = 'NY';
+```
+
+### OR
+One of two or more conditions must be true to get results when using `OR`.
+```
+SELECT FirstName, LastName
+FROM CUSTOMERS
+WHERE State = 'CA'OR State = 'NY';
+```
+
+### NOT
+Negates the condition.
+```
+SELECT FirstName, LastName
+FROM CUSTOMERS
+WHERE NOT (State = 'CA');
+```
+
+### GROUP BY
+```
+SELECT *
+FROM CUSTOMERS
+GROUP BY State;
+```
+
+### HAVING
+Acts as a filter on groups rather than on individual rows.
+```
+SELECT FirstName, LastName
+FROM CUSTOMERS
+GROUP BY State
+HAVING State <> 'CA';
+```
+
+### ORDER BY & FETCH
+Display the query in ascending or descending order.
+```
+SELECT *
+FROM ORDERS
+ORDER BY OrderDate ASC, Quantity DESC
+OFFSET 5 ROWS                           # Tells how many rows to skip
+FETCH NEXT 10 ROWS ONLY;                # Gets the next 10 rows
+```
