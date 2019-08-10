@@ -1,1 +1,1 @@
-
+To protect the data's integrity by avoiding modification anomalies, we must normalize the database. Normalization involves breaking up a single table into multiple tables. We can then use relational operators to pull data from multiple tables. But another way to pull data from two or more tables is nested query.
