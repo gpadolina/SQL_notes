@@ -104,3 +104,20 @@ SELECT FirstName, LastName
 FROM CUSTOMERS
 WHERE State NOT IN ('CA', 'NY', 'NJ')
 ```
+
+### LIKE and NOT LIKE
+* % is a wildcard that can stand for any string of characters that have zero or more characters.
+* _ is a wildcard for any single character.
+* # is an escape character.
+```
+SELECT FirstName
+FROM CUSTOMERS
+WHERE LastName LIKE 'Br%';
+```
+
+### NULL and NOT NULL
+```
+SELECT FirstName, LastName
+FROM CUSTOMERS
+WHERE Phone IS NOT NULL;
+```
