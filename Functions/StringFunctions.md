@@ -76,3 +76,15 @@ LOCATE( ) returns the position of the first occurence of a substring in a string
 ```
 LOCATE(substring, string, start)            # start: The starting position for the search. This is optional.
 ```
+### LOWER
+LOWER( ) converts a string to lower-case.
+```
+LOWER(text)
+```
+### LPAD
+LPAD( ) left-pads a string with another string.
+```
+LPAD(string, length, lpad_string)           # string: The original string.
+                                            # length: The length of the string after it has been left-padded.
+                                            # lpad_string: The string to left-pad to original string.
+```
