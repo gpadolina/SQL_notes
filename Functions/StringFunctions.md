@@ -88,3 +88,8 @@ LPAD(string, length, lpad_string)           # string: The original string.
                                             # length: The length of the string after it has been left-padded.
                                             # lpad_string: The string to left-pad to original string.
 ```
+### LTRIM
+LTRIM( ) removes leading spaces from a string.
+```
+LTRIM(string)
+```
