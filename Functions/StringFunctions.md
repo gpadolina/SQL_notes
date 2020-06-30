@@ -66,3 +66,13 @@ LEFT( ) extracts a number of characters from a string starting from the left.
 LEFT(string, number_of_chars)               # string: The string to extract from.
                                             # number_of_chars: The number of characters to extract.
 ```
+### LENGTH
+LENGTH( ) returns the length of a string.
+```
+LENGTH(string)
+```
+### LOCATE
+LOCATE( ) returns the position of the first occurence of a substring in a string. This is case-insensitive.
+```
+LOCATE(substring, string, start)            # start: The starting position for the search. This is optional.
+```
