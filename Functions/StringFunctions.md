@@ -35,3 +35,17 @@ FIND_IN_SET( ) returns the position of a string within a list of strings.
 FIND_IN_SET(string, string_list)            # string: The string to search for.
                                             # string_list: The list of string values to be searched.
 ```
+### FORMAT
+FORMAT( ) formats a number to a format like "###,###.##" then returns the result as a string.
+```
+FORMAT(number, decimal_places)              # number: The number to be formatted.
+                                            # decimal_places: The number of decimal places for the number.
+```
+### INSERT
+INSERT( ) inserts a string within a string at the specified position and for a certain number of characters.
+```
+INSERT(string, position, number, string2)   # string: The string that will be modified.
+                                            # position: The position where to insert string2.
+                                            # number: The number of characters to replace.
+                                            # string2: The string to be inserted.
+```
