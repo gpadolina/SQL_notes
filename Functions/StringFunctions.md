@@ -11,3 +11,15 @@ CHAR_LENGTH() returns the length of a string (in characters). Same function as C
 ```
 SELECT CHAR_LENGTH("FirstName LastName")
 ```
+### CONCAT
+CONCAT() adds two or more expressions together.
+```
+SELECT CONCAT(Address, " ", City, " ", State)
+FROM Customers;
+```
+### CONCAT_WS()
+CONCAT_WS() adds two or more expressions together with a separator.
+```
+SELECT CONCAT_WS(" ", Address, City, State)
+FROM Customers;
+```
