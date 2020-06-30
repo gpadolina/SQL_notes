@@ -49,3 +49,20 @@ INSERT(string, position, number, string2)   # string: The string that will be mo
                                             # number: The number of characters to replace.
                                             # string2: The string to be inserted.
 ```
+### INSTR
+INSTR( ) returns the position of the first occurence of a string in another string.
+```
+INSTR(string, string2)                      # string: The string that will be searched.
+                                            # string2: The string to search for in string.
+```
+### LCASE
+LCASE( ) converts a string to a lower-case.
+```
+LCASE(text)
+```
+### LEFT
+LEFT( ) extracts a number of characters from a string starting from the left.
+```
+LEFT(string, number_of_chars)               # string: The string to extract from.
+                                            # number_of_chars: The number of characters to extract.
+```
