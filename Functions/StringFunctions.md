@@ -172,9 +172,9 @@ SUBSTRING_INDEX( ) returns a substring of a string before a specified number of 
 ```
 SUBSTRING_INDEX(string, delimiter, number)  # string: The original string.
                                             # delimiter: The delimiter to search for.
-                                            # number: The number of times to search for the delimiter. If positive,
-                                            # this returns all to the left of delimiter. If negative, this returns all
-                                            # to the right of delimiter.
+                                            # number: The number of times to search for the delimiter. 
+                                            # If positive, this returns all to the left of delimiter. 
+                                            # If negative, this returns all to the right of delimiter.
 ```
 ### TRIM
 TRIM( ) removed leading and trailing spaces from a string.
