@@ -116,3 +116,8 @@ REPLACE(string, from_string, new_string)    # string: The original string.
                                             # from_string: The substring to be replaced.
                                             # new_string: The new replacement substring.
 ```
+### REVERSE
+REVERSE( ) reverses a string and returns the result.
+```
+REVERSE(string)
+```
