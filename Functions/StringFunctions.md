@@ -143,3 +143,10 @@ SPACE( ) returns a string of the specified number of space characters.
 ```
 SPACE(number)                               # number: The number of space characters to return.
 ```
+### STRCMP
+STRCMP( ) compares two strings.
+```
+STRCMP(string1, string2)                    # returns 0 if string1 = string2
+                                            # returns -1 if string1 < string2
+                                            # returns 1 if string1 > string2
+```
