@@ -121,3 +121,8 @@ REVERSE( ) reverses a string and returns the result.
 ```
 REVERSE(string)
 ```
+### RIGHT
+RIGHT( ) extracts a number of characters from a string starting from right.
+```
+RIGHT(string, number_of_chars)
+```
