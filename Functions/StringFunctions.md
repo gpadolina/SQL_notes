@@ -93,3 +93,10 @@ LTRIM( ) removes leading spaces from a string.
 ```
 LTRIM(string)
 ```
+### MID
+MID( ) extracts a subtring from a string starting at any position.
+```
+MID(string, start, length)                  # start: The start position. Can be positive or negative number.
+                                            # length: The number of characters to extract.
+```
+
