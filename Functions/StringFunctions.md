@@ -133,3 +133,8 @@ RPAD(string, length, rpad_string)           # string: The original stirng.
                                             # length: The length of the string after it has been right-padded.
                                             # rpad_string: The string to right-pad to original string.
 ```
+### RTRIM
+RTRIM( ) removes trailing spaces from a string
+```
+RTRIM(string)
+```
