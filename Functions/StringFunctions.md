@@ -138,3 +138,8 @@ RTRIM( ) removes trailing spaces from a string
 ```
 RTRIM(string)
 ```
+### SPACE
+SPACE( ) returns a string of the specified number of space characters.
+```
+SPACE(number)                               # number: The number of space characters to return.
+```
