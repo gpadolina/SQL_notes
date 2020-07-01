@@ -176,3 +176,8 @@ SUBSTRING_INDEX(string, delimiter, number)  # string: The original string.
                                             # this returns all to the left of delimiter. If negative, this returns all
                                             # to the right of delimiter.
 ```
+### TRIM
+TRIM( ) removed leading and trailing spaces from a string.
+```
+TRIM(string)
+```
