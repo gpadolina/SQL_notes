@@ -109,3 +109,10 @@ REPEAT( ) repeats a string as many times as specified.
 ```
 REPEAT(string, number)
 ```
+### REPLACE
+REPLACE( ) replaces all occurrences of a substring within a string with a new substring.
+```
+REPLACE(string, from_string, new_string)    # string: The original string.
+                                            # from_string: The substring to be replaced.
+                                            # new_string: The new replacement substring.
+```
