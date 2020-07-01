@@ -126,3 +126,10 @@ RIGHT( ) extracts a number of characters from a string starting from right.
 ```
 RIGHT(string, number_of_chars)
 ```
+### RPAD
+RPAD( ) right-pads a string with another string to a certain length.
+```
+RPAD(string, length, rpad_string)           # string: The original stirng.
+                                            # length: The length of the string after it has been right-padded.
+                                            # rpad_string: The string to right-pad to original string.
+```
