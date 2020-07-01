@@ -104,3 +104,8 @@ POSITION( ) returns the position of the first occurence of a subtring in a strin
 ```
 POSITION(substring IN string)
 ```
+### REPEAT
+REPEAT( ) repeats a string as many times as specified.
+```
+REPEAT(string, number)
+```
