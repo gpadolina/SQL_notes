@@ -155,8 +155,8 @@ SUBSTR( ) extracts a substring from a string starting at any position. This func
 ```
 SUBSTR(string, start, length)               # string: The string to extract from.
                                             # start: The start position. Can be negative or positive number.
-                                            # length: The number of characters to extract. If omitted, the the whole string
-                                            # will be returned from the start position.
+                                            # length: The number of characters to extract. 
+                                            # If omitted, the the whole string will be returned from the start position.
 ```
 ### SUBSTRING
 SUBSTRING( ) extracts a substring from a string starting at any position.
