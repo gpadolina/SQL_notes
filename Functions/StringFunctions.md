@@ -186,3 +186,8 @@ UCASE( ) converts a string to upper-case.
 ```
 UCASE(text)
 ```
+### UPPER
+UPPER( ) converts a string to upper-case. This is the same as UCASE( ).
+```
+UPPER(text)
+```
