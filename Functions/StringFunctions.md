@@ -181,3 +181,8 @@ TRIM( ) removed leading and trailing spaces from a string.
 ```
 TRIM(string)
 ```
+### UCASE
+UCASE( ) converts a string to upper-case.
+```
+UCASE(text)
+```
