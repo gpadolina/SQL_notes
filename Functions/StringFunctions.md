@@ -99,4 +99,8 @@ MID( ) extracts a subtring from a string starting at any position.
 MID(string, start, length)                  # start: The start position. Can be positive or negative number.
                                             # length: The number of characters to extract.
 ```
-
+### POSITION
+POSITION( ) returns the position of the first occurence of a subtring in a string. This is case-insensitive.
+```
+POSITION(substring IN string)
+```
