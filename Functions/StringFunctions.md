@@ -150,3 +150,11 @@ STRCMP(string1, string2)                    # returns 0 if string1 = string2
                                             # returns -1 if string1 < string2
                                             # returns 1 if string1 > string2
 ```
+### SUBSTR
+SUBSTR( ) extracts a substring from a string starting at any position. This function is the same as MID( ) and SUBSTRING( ).
+```
+SUBSTR(string, start, length)               # string: The string to extract from.
+                                            # start: The start position. Can be negative or positive number.
+                                            # length: The number of characters to extract. If omitted, the the whole string
+                                            # will be returned from the start position.
+```
