@@ -167,3 +167,12 @@ OR
 
 SUBSTRING(string FROM start FOR length)
 ```
+### SUBSTRING_INDEX
+SUBSTRING_INDEX( ) returns a substring of a string before a specified number of delimiter occurs.
+```
+SUBSTRING_INDEX(string, delimiter, number)  # string: The original string.
+                                            # delimiter: The delimiter to search for.
+                                            # number: The number of times to search for the delimiter. If positive,
+                                            # this returns all to the left of delimiter. If negative, this returns all
+                                            # to the right of delimiter.
+```
