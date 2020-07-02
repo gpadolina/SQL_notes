@@ -44,3 +44,8 @@ CEILING( ) returns the smallest integer value that is bigger than or equal to a 
 ```
 CEILING(number)
 ```
+### COS
+COS( ) returns the cosine of a number.
+```
+COS(number)
+```
