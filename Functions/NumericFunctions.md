@@ -10,3 +10,8 @@ ACOS( ) returns the arc cosine of a number, which must be between -1 and 1.
 ```
 ACOS(number)
 ```
+### ASIN
+ASIN( ) returns the arc sine of a number, which must be between -1 and 1.
+```
+ASIN(number)
+```
