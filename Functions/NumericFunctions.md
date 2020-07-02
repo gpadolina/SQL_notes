@@ -90,3 +90,8 @@ LEAST( ) returns the smallest value of the list of arguments.
 ```
 SELECT LEAST(arg1, arg2, arg3, ...)
 ```
+### LN
+LN( ) returns the natural logarithm of a number.
+```
+SELECT LN(number)
+```
