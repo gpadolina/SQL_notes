@@ -75,3 +75,8 @@ EXP( ) returns e raised to the power of the specified number.
 ```
 SELECT EXP(number)
 ```
+### FLOOR
+FLOOR( ) returns the largest integer value that is smaller than or equal to a number.
+```
+SELECT FLOOR(number)
+```
