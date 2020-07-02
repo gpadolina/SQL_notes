@@ -59,3 +59,8 @@ COUNT( ) returns the number of records return by a select query.
 ```
 SELECT COUNT(expression)
 ```
+### DEGREES
+DEGREES( ) converts a value in radians to degrees.
+```
+SELECT DEGREES(number)
+```
