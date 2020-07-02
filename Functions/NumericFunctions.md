@@ -64,3 +64,9 @@ DEGREES( ) converts a value in radians to degrees.
 ```
 SELECT DEGREES(number)
 ```
+### DIV
+DIV( ) is used for integer division. An integer is returned.
+```
+SELECT x DIV y                              # x: A value that will be divided by y.
+                                            # y: The divisor.
+```
