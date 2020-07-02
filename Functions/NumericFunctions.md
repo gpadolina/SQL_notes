@@ -95,3 +95,8 @@ LN( ) returns the natural logarithm of a number.
 ```
 SELECT LN(number)
 ```
+### LOG
+LOG( ) returns the natural logarithm of a specified number or the logarithm of the number to the specified base.
+```
+SELECT LOG(number)
+```
