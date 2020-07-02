@@ -70,3 +70,8 @@ DIV( ) is used for integer division. An integer is returned.
 SELECT x DIV y                              # x: A value that will be divided by y.
                                             # y: The divisor.
 ```
+### EXP
+EXP( ) returns e raised to the power of the specified number.
+```
+SELECT EXP(number)
+```
