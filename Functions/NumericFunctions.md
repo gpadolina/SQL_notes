@@ -34,3 +34,8 @@ AVG( ) returns the average value of an expression.
 ```
 AVG(expression)
 ```
+### CEIL
+CEIL( ) returns the smallest integer value that is bigger than or equal to a number. This is the same as CEILING( ).
+```
+CEIL(number)
+```
