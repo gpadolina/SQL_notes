@@ -80,3 +80,8 @@ FLOOR( ) returns the largest integer value that is smaller than or equal to a nu
 ```
 SELECT FLOOR(number)
 ```
+### GREATEST
+GREATEST( ) returns the greatest value of the list of arguments.
+```
+SELECT GREATEST(arg1, arg2, arg3, ...)
+```
