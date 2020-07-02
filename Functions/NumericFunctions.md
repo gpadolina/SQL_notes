@@ -29,3 +29,8 @@ ATAN2( ) returns the arc tangent of two numbers.
 ```
 ATAN2(a, b)
 ```
+### AVG
+AVG( ) returns the average value of an expression.
+```
+AVG(expression)
+```
