@@ -39,3 +39,8 @@ CEIL( ) returns the smallest integer value that is bigger than or equal to a num
 ```
 CEIL(number)
 ```
+### CEILING
+CEILING( ) returns the smallest integer value that is bigger than or equal to a number. This is the same as CEIL( ).
+```
+CEILING(number)
+```
