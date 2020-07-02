@@ -49,3 +49,8 @@ COS( ) returns the cosine of a number.
 ```
 COS(number)
 ```
+### COT
+COT( ) returns the cotangent of a number.
+```
+COT(number)
+```
