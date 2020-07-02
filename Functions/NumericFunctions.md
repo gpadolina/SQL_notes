@@ -85,3 +85,8 @@ GREATEST( ) returns the greatest value of the list of arguments.
 ```
 SELECT GREATEST(arg1, arg2, arg3, ...)
 ```
+### LEAST
+LEAST( ) returns the smallest value of the list of arguments.
+```
+SELECT LEAST(arg1, arg2, arg3, ...)
+```
