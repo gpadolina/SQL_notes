@@ -24,3 +24,8 @@ OR
 
 ATAN(a, b)
 ```
+### ATAN2
+ATAN2( ) returns the arc tangent of two numbers.
+```
+ATAN2(a, b)
+```
