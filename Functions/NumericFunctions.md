@@ -100,3 +100,8 @@ LOG( ) returns the natural logarithm of a specified number or the logarithm of t
 ```
 SELECT LOG(number)
 ```
+### LOG10
+LOG10( ) returns the natural logarithm of a number to base-10.
+```
+SELECT LOG10(number)
+```
