@@ -54,3 +54,8 @@ COT( ) returns the cotangent of a number.
 ```
 COT(number)
 ```
+## COUNT
+COUNT( ) returns the number of records return by a select query.
+```
+SELECT COUNT(expression)
+```
