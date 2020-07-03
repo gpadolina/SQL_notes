@@ -182,3 +182,8 @@ SQRT( ) returns the square root of a number.
 ```
 SELECT SQRT(number)
 ```
+### SUM
+SUM( ) calculates the sum of a set of values.
+```
+SELECT SUM(espression)
+```
