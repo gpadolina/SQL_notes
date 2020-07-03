@@ -154,3 +154,8 @@ RADIANS( ) converts a degree value into radians.
 ```
 SELECT RADIANS(number)
 ```
+### RAND
+RAND( ) returns a random number between 0 inclusive and 1 exclusive.
+```
+SELECT RAND( )
+```
