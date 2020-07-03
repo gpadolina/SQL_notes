@@ -195,6 +195,6 @@ SELECT TAN(number)
 ### TRUNCATE
 TRUNCATE( ) truncates a number to the specified number of decimal places.
 ```
-SELECT TRUNCATE(number, decimals)         # number: The number to be truncated.
-                                          # decimals: The number of decimal places to truncate to.
+SELECT TRUNCATE(number, decimals)           # number: The number to be truncated.
+                                            # decimals: The number of decimal places to truncate to.
 ```
