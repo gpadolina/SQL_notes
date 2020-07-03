@@ -187,3 +187,8 @@ SUM( ) calculates the sum of a set of values.
 ```
 SELECT SUM(espression)
 ```
+### TAN
+TAN( ) returns the tangent of a number.
+```
+SELECT TAN(number)
+```
