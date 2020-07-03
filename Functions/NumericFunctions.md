@@ -133,3 +133,8 @@ OR
 
 x % y
 ```
+### PI
+PI( ) returns the value of PI
+```
+SELECT PI( )
+```
