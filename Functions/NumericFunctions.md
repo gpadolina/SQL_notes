@@ -159,3 +159,9 @@ RAND( ) returns a random number between 0 inclusive and 1 exclusive.
 ```
 SELECT RAND( )
 ```
+### ROUND
+ROUND( ) rounds a number to a specified number of decimal places.
+```
+SELECT ROUND(number, decimals)              # number: The number to be rounded.
+                                            # decimals: The number of decimal places to round number to. Optional.
+```
