@@ -138,3 +138,9 @@ PI( ) returns the value of PI
 ```
 SELECT PI( )
 ```
+### POW
+POW( ) returns the value of a number raised to the power of another number.
+```
+SELECT POW(x, y)                            # x: The base.
+                                            # y: The exponent.
+```
