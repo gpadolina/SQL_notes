@@ -172,3 +172,8 @@ SELECT SIGN(number)                         # If number is positive, it returns 
                                             # If number is positive, it returns -1.
                                             # If number is 0, it returns 0.
 ```
+### SIN
+SIN( ) returns the sine of a number.
+```
+SELECT SIN(number)
+```
