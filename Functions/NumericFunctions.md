@@ -115,3 +115,8 @@ MAX( ) returns the maximum value in a set of values.
 ```
 SELECT MAX(expression)
 ```
+### MIN
+MIN( ) returns the minimum value in a seat of values.
+```
+SELECT MIN(expression)
+```
