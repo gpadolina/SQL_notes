@@ -120,3 +120,16 @@ MIN( ) returns the minimum value in a seat of values.
 ```
 SELECT MIN(expression)
 ```
+### MOD
+MOD( ) or modulo returns the remainder of a number divided by another number.
+```
+SELECT MOD(x, y)
+
+OR
+
+x MOD y
+
+OR
+
+x % y
+```
