@@ -144,3 +144,8 @@ POW( ) returns the value of a number raised to the power of another number.
 SELECT POW(x, y)                            # x: The base.
                                             # y: The exponent.
 ```
+### POWER
+POWER( ) returns the value of a number raised to the power of another number. This is the same as POW( ).
+```
+SELECT POWER(x, y)
+```
