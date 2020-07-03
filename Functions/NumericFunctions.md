@@ -149,3 +149,8 @@ POWER( ) returns the value of a number raised to the power of another number. Th
 ```
 SELECT POWER(x, y)
 ```
+### RADIANS
+RADIANS( ) converts a degree value into radians.
+```
+SELECT RADIANS(number)
+```
