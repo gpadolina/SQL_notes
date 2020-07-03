@@ -165,3 +165,10 @@ ROUND( ) rounds a number to a specified number of decimal places.
 SELECT ROUND(number, decimals)              # number: The number to be rounded.
                                             # decimals: The number of decimal places to round number to. Optional.
 ```
+### SIGN
+SIGN( ) returns the sign of a number.
+```
+SELECT SIGN(number)                         # If number is positive, it returns 1.
+                                            # If number is positive, it returns -1.
+                                            # If number is 0, it returns 0.
+```
