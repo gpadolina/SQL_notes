@@ -177,3 +177,8 @@ SIN( ) returns the sine of a number.
 ```
 SELECT SIN(number)
 ```
+### SQRT
+SQRT( ) returns the square root of a number.
+```
+SELECT SQRT(number)
+```
