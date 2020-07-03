@@ -110,3 +110,8 @@ LOG2( ) returns the natural logarithm of a number to base-2.
 ```
 SELECT LOG2(number)
 ```
+### MAX
+MAX( ) returns the maximum value in a set of values.
+```
+SELECT MAX(expression)
+```
