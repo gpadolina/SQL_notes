@@ -117,3 +117,8 @@ DAYNAME( ) returns the weekday name for a given date.
 ```
 SELECT DAYNAME(date)
 ```
+### DAYOFMONTH
+DAYOFMONTH( ) returns the day of the month for a given date. THis is the same as DAY( ).
+```
+SELECT DAYOFMONTH(date)
+```
