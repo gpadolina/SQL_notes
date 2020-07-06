@@ -19,3 +19,8 @@ CURDATE( ) returns the current date. This function is equal to CURRENT_DATE( ). 
 ```
 SELECT CURDATE( )
 ```
+### CURRENT_DATE
+CURRENT_DATE( ) returns the current data. The same function as CURDATE( ).
+```
+SELECT CURRENT_DATE( )
+```
