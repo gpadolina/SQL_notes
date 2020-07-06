@@ -91,10 +91,10 @@ SELECT DATE_FORMAT(date, format)                             # %a	Abbreviated we
                                                                 Used with %X
                                                              # %W	Weekday name in full (Sunday to Saturday)
                                                              # %w	Day of the week where Sunday=0 and Saturday=6
-                                                             # %X	Year for the week where Sunday is the first day of the week. 
-                                                                Used with %V
-                                                             # %x	Year for the week where Monday is the first day of the week. 
-                                                                Used with %V
+                                                             # %X	Year for the week where Sunday is the first day of the 
+                                                                week. Used with %V
+                                                             # %x	Year for the week where Monday is the first day of the 
+                                                                week. Used with %V
                                                              # %Y	Year as a numeric, 4-digit value
                                                              # %y	Year as a numeric, 2-digit value
 ```
