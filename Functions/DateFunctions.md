@@ -39,3 +39,8 @@ CURTIME( ) returns the current time. The same function as CURRENT_TIME( ).
 ```
 SELECT CURTIME( )
 ```
+### DATE
+DATE( ) extracts the date part from a datetime expression.
+```
+SELECT DATE(expression)
+```
