@@ -29,3 +29,8 @@ CURRENT_TIME( ) returns the current time. This function is equal to CURTIME( ).
 ```
 SELECT CURRENT_TIME( )
 ```
+### CURRENT_TIMESTAMP
+CURRENT_TIMESTAMP( ) returns the current date and time.
+```
+SELECT CURRENT_TIMESTAMP( )
+```
