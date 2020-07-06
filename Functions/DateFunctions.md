@@ -24,3 +24,8 @@ CURRENT_DATE( ) returns the current data. The same function as CURDATE( ).
 ```
 SELECT CURRENT_DATE( )
 ```
+### CURRENT_TIME
+CURRENT_TIME( ) returns the current time. This function is equal to CURTIME( ).
+```
+SELECT CURRENT_TIME( )
+```
