@@ -122,3 +122,8 @@ DAYOFMONTH( ) returns the day of the month for a given date. THis is the same as
 ```
 SELECT DAYOFMONTH(date)
 ```
+### DAYOFWEEK
+DAYOFWEEK( ) returns the weekday index for a given date (a number from 1 to 7 with 1 as Sunday).
+```
+SELECT DAYOFWEEK(date)
+```
