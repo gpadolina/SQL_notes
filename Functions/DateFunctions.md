@@ -14,3 +14,8 @@ ADDTIME( ) adds a time interval to time/datetime and then returns the time/datet
 ```
 SELECT ADDTIME(datetime, addtime)
 ```
+### CURDATE
+CURDATE( ) returns the current date. This function is equal to CURRENT_DATE( ). Date is returned as "YYY-MM-DD" as a string or YYYYMMDD as numeric.
+```
+SELECT CURDATE( )
+```
