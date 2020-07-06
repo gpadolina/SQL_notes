@@ -49,3 +49,9 @@ DATEDIFF( ) returns the number of days between two date values.
 ```
 SELECT DATEDIFF(date1, date2)                                # date1, date2: YYYY-MM-DD
 ```
+### DATE_ADD
+DATE_ADD( ) adds a time/date interval to a date and then returns the date.
+```
+SELECT DATE_ADD(date, INTERVAL value addunit)                # addunit: The type of interval to add.
+                                                             # microsecond, second, minute, hour, day, week, month, quarter, year
+                                                             # second_microsecond, minute_microsecond, minute_second
