@@ -107,3 +107,8 @@ SELECT DATE_SUB(date, INTERVAL value interval)               # interval: The typ
                                                              # hour_microsecond, hour_second, hour_minute, day_microsecond
                                                              # day_second, day_minute, day_hour, year_month
 ```
+### DAY
+DAY( ) returns the day of the month for a given date (a number from 1 to 31). This is the same as DAYOFMONTH( ).
+```
+SELECT DAY(date)
+```
