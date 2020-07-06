@@ -98,3 +98,12 @@ SELECT DATE_FORMAT(date, format)                             # %a	Abbreviated we
                                                              # %Y	Year as a numeric, 4-digit value
                                                              # %y	Year as a numeric, 2-digit value
 ```
+### DATE_SUB
+DATE_SUB( ) subtracts a time/date interval from a date and then returns the date.
+```
+SELECT DATE_SUB(date, INTERVAL value interval)               # interval: The type of interval to subtract.
+                                                             # microsecond, second, minute, hour, day, week, month, quarter, year
+                                                             # second_microsecond, minute_microsecond, minute_second
+                                                             # hour_microsecond, hour_second, hour_minute, day_microsecond
+                                                             # day_second, day_minute, day_hour, year_month
+```
