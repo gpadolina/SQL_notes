@@ -127,3 +127,8 @@ DAYOFWEEK( ) returns the weekday index for a given date (a number from 1 to 7 wi
 ```
 SELECT DAYOFWEEK(date)
 ```
+### DAYOFYEAR
+DAYOFYEAR( ) returns the day of the year for a given date (a number from 1 to 366).
+```
+SELECT DAYOFYEAR(date)
+```
