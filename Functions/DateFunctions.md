@@ -44,3 +44,8 @@ DATE( ) extracts the date part from a datetime expression.
 ```
 SELECT DATE(expression)
 ```
+### DATEDIFF
+DATEDIFF( ) returns the number of days between two date values.
+```
+SELECT DATEDIFF(date1, date2)                                # date1, date2: YYYY-MM-DD
+```
