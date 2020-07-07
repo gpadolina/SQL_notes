@@ -212,3 +212,8 @@ QUARTER( ) returns the quarter of the year from 1 to 4 for a given date value.
 ```
 SELECT QUARTER(date)
 ```
+### SECOND
+SECOND( ) returns the seconds part of a time/datetime.
+```
+SELECT SECOND(datetime)
+```
