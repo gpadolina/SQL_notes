@@ -192,3 +192,8 @@ MONTHNAME( ) returns the name of the month for a given date.
 ```
 SELECT MONTHNAME(date)
 ```
+### NOW
+NOW( ) returns the current date and time.
+```
+SELECT NOW( )
+```
