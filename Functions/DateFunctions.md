@@ -142,3 +142,8 @@ FROM_DAYS( ) returns a date from a numeric datevalue. This is opposite of the TO
 ```
 SELECT FROM_DAYS(number)
 ```
+### HOUR
+HOUR( ) returns the hour part for a given date from 0 to 838.
+```
+SELECT HOUR(datetime)
+```
