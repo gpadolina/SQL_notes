@@ -162,3 +162,8 @@ LOCALTIMESTAMP( ) returns the current date and time.
 ```
 SELECT LOCALTIMESTAMP( )
 ```
+### MAKEDATE
+MAKEDATE( ) creates and returns a date based on a year and a number of days value.
+```
+SELECT MAKEDATE(year, day)
+```
