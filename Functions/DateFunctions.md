@@ -202,3 +202,8 @@ PERIOD_ADD( ) adds a specified number of months to a period.
 ```
 SELECT PERIOD_ADD(period, number)
 ```
+### PERIOD_DIFF
+PERIOD_DIFF( ) returns the difference between two periods. The result will be in months.
+```
+SELECT PERIOD_DIFF(period1, period2)
+```
