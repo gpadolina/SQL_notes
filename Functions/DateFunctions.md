@@ -157,3 +157,8 @@ LOCALTIME( ) returns the current date and time.
 ```
 SELECT LOCALTIME( )
 ```
+### LOCALTIMESTAMP
+LOCALTIMESTAMP( ) returns the current date and time.
+```
+SELECT LOCALTIMESTAMP( )
+```
