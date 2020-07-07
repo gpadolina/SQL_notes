@@ -152,3 +152,8 @@ LAST_DAY( ) extracts the last day of the month for a given date.
 ```
 SELECT LAST_DAY(date)
 ```
+### LOCALTIME
+LOCALTIME( ) returns the current date and time.
+```
+SELECT LOCALTIME( )
+```
