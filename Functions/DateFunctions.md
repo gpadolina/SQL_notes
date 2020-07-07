@@ -222,3 +222,8 @@ SEC_TO_TIME( ) returns a time value based on the specified seconds.
 ```
 SELECT SEC_TO_TIME(seconds)
 ```
+### STR_TO_DATE
+STR_TO_DATE( ) returns a date based on a string and a format.
+```
+SELECT STR_TO_DATE(string, format)
+```
