@@ -227,3 +227,8 @@ STR_TO_DATE( ) returns a date based on a string and a format.
 ```
 SELECT STR_TO_DATE(string, format)
 ```
+### SUBDATE
+SUBDATE( ) subtracts a time/date interval from a date and then returns the date.
+```
+SELECT SUBDATE(date, INTERVAL value unit)
+```
