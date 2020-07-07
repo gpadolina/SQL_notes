@@ -187,3 +187,8 @@ MONTH( ) returns the month part for a given date.
 ```
 SELECT MONTH(date)
 ```
+### MONTHNAME
+MONTHNAME( ) returns the name of the month for a given date.
+```
+SELECT MONTHNAME(date)
+```
