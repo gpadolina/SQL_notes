@@ -177,3 +177,8 @@ MICROSECOND( ) returns the microsecond part of a time/datetime.
 ```
 SELECT MICROSECOND(datetime)
 ```
+### MINUTE
+MINUTE( ) returns the minute part of a time/datetime.
+```
+SELECT MINUTE(datetime)
+```
