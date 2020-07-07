@@ -232,3 +232,8 @@ SUBDATE( ) subtracts a time/date interval from a date and then returns the date.
 ```
 SELECT SUBDATE(date, INTERVAL value unit)
 ```
+### SUBTIME
+SUBTIME( ) subtracts time from a time/datetime expression and then returns the new time/datetime.
+```
+SELECT SUBTIME(datetime, time_interval)
+```
