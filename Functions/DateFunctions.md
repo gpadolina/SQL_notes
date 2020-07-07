@@ -172,3 +172,8 @@ MAKETIME( ) creates and returns a time based on an hour, minute, and second valu
 ```
 SELECT MAKETIME(hour, minute, second)
 ```
+### MICROSECOND
+MICROSECOND( ) returns the microsecond part of a time/datetime.
+```
+SELECT MICROSECOND(datetime)
+```
