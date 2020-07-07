@@ -167,3 +167,8 @@ MAKEDATE( ) creates and returns a date based on a year and a number of days valu
 ```
 SELECT MAKEDATE(year, day)
 ```
+### MAKETIME
+MAKETIME( ) creates and returns a time based on an hour, minute, and second value.
+```
+SELECT MAKETIME(hour, minute, second)
+```
