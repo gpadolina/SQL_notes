@@ -132,3 +132,8 @@ DAYOFYEAR( ) returns the day of the year for a given date (a number from 1 to 36
 ```
 SELECT DAYOFYEAR(date)
 ```
+### EXTRACT
+EXTRACT( ) extracts a part from a given date.
+```
+SELECT EXTRACT(part FROM date)
+```
