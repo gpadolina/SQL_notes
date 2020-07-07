@@ -217,3 +217,8 @@ SECOND( ) returns the seconds part of a time/datetime.
 ```
 SELECT SECOND(datetime)
 ```
+### SEC_TO_TIME
+SEC_TO_TIME( ) returns a time value based on the specified seconds.
+```
+SELECT SEC_TO_TIME(seconds)
+```
