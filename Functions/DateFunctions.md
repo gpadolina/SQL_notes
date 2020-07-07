@@ -197,3 +197,8 @@ NOW( ) returns the current date and time.
 ```
 SELECT NOW( )
 ```
+### PERIOD_ADD
+PERIOD_ADD( ) adds a specified number of months to a period.
+```
+SELECT PERIOD_ADD(period, number)
+```
