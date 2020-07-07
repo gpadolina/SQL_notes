@@ -207,3 +207,8 @@ PERIOD_DIFF( ) returns the difference between two periods. The result will be in
 ```
 SELECT PERIOD_DIFF(period1, period2)
 ```
+### QUARTER
+QUARTER( ) returns the quarter of the year from 1 to 4 for a given date value.
+```
+SELECT QUARTER(date)
+```
