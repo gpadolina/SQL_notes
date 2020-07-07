@@ -237,3 +237,8 @@ SUBTIME( ) subtracts time from a time/datetime expression and then returns the n
 ```
 SELECT SUBTIME(datetime, time_interval)
 ```
+### SYSDATE
+SYSDATE( ) returns the current date and time.
+```
+SELECT SYSDATE( )
+```
