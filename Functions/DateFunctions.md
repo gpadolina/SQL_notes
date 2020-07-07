@@ -182,3 +182,8 @@ MINUTE( ) returns the minute part of a time/datetime.
 ```
 SELECT MINUTE(datetime)
 ```
+### MONTH
+MONTH( ) returns the month part for a given date.
+```
+SELECT MONTH(date)
+```
