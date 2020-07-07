@@ -137,3 +137,8 @@ EXTRACT( ) extracts a part from a given date.
 ```
 SELECT EXTRACT(part FROM date)
 ```
+### FROM_DAYS
+FROM_DAYS( ) returns a date from a numeric datevalue. This is opposite of the TO_DAYS( ) function.
+```
+SELECT FROM_DAYS(number)
+```
