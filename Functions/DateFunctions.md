@@ -147,3 +147,8 @@ HOUR( ) returns the hour part for a given date from 0 to 838.
 ```
 SELECT HOUR(datetime)
 ```
+### LAST_DAY
+LAST_DAY( ) extracts the last day of the month for a given date.
+```
+SELECT LAST_DAY(date)
+```
