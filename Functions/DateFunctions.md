@@ -267,3 +267,8 @@ TIME_TO_SEC( ) convers a time value into seconds.
 ```
 SELECT TIME_TO_SEC(time)
 ```
+### TIMEDIFF
+TIMEDIFF( ) returns the different between two time/datetime expressions.
+```
+SELECT TIME(time1, time2)                           # time1, time2 should be in the same format.
+```
