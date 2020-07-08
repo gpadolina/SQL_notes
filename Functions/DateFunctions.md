@@ -277,3 +277,8 @@ TIMESTAMP( ) returns a datetime value based on a date or datetime value.
 ```
 SELECT TIMESTAMP(expression, time)
 ```
+### TO_DAYS
+TO_DAYS( ) returns the number of days between a date and year 0. This is the opposite of FROM_DAYS( ).
+```
+SELECT TO_DAYS(date)
+```
