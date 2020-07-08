@@ -292,3 +292,9 @@ WEEKDAY( ) returns the weekday number for a given date with 0 = Monday.
 ```
 SELECT WEEKDAY(date)
 ```
+### WEEKOFYEAR
+WEEKOFYEAR( ) returns the week number for a given date. Assumes that the first day of the week is Monday and
+the first week of the year has more than 3 days.
+```
+SELECT WEEKOFYEAR(date)
+```
