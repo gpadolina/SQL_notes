@@ -287,3 +287,8 @@ WEEK( ) returns the week number for a given date.
 ```
 SELECT WEEK(date, firstdayofweek)                   # firstdayofweek: Optional. Specifies what day the week starts on.
 ```
+### WEEKDAY
+WEEKDAY( ) returns the weekday number for a given date with 0 = Monday.
+```
+SELECT WEEKDAY(date)
+```
