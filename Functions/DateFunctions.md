@@ -242,3 +242,8 @@ SYSDATE( ) returns the current date and time.
 ```
 SELECT SYSDATE( )
 ```
+### TIME
+TIME( ) extracts the time part from a given time/datetime.
+```
+SELECT TIME(expression)
+```
