@@ -298,3 +298,8 @@ the first week of the year has more than 3 days.
 ```
 SELECT WEEKOFYEAR(date)
 ```
+### YEAR
+YEAR( ) returns the year part for a given date.
+```
+SELECT YEAR( )
+```
