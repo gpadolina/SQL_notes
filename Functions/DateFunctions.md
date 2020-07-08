@@ -262,3 +262,8 @@ SELECT TIME_FORMAT(time, format)                    # format: The format to use.
                                                     # %s	Seconds (00 to 59)
                                                     # %T	Time in 24 hour format (hh:mm:ss)
 ```
+### TIME_TO_SEC
+TIME_TO_SEC( ) convers a time value into seconds.
+```
+SELECT TIME_TO_SEC(time)
+```
