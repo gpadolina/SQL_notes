@@ -272,3 +272,8 @@ TIMEDIFF( ) returns the different between two time/datetime expressions.
 ```
 SELECT TIME(time1, time2)                           # time1, time2 should be in the same format.
 ```
+### TIMESTAMP
+TIMESTAMP( ) returns a datetime value based on a date or datetime value.
+```
+SELECT TIMESTAMP(expression, time)
+```
