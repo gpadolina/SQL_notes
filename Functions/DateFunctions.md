@@ -247,3 +247,18 @@ TIME( ) extracts the time part from a given time/datetime.
 ```
 SELECT TIME(expression)
 ```
+### TIME_FORMAT
+TIME_FORMAT( ) formats a time by a specified format.
+```
+SELECT TIME_FORMAT(time, format)                    # format: The format to use.
+                                                    # %f	Microseconds (000000 to 999999)
+                                                    # %H	Hour (00 to 23)
+                                                    # %h	Hour (00 to 12)
+                                                    # %I	Hour (00 to 12)
+                                                    # %i	Minutes (00 to 59)
+                                                    # %p	AM or PM
+                                                    # %r	Time in 12 hour AM or PM format (hh:mm:ss AM/PM)
+                                                    # %S	Seconds (00 to 59)
+                                                    # %s	Seconds (00 to 59)
+                                                    # %T	Time in 24 hour format (hh:mm:ss)
+```
