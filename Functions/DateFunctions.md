@@ -303,3 +303,8 @@ YEAR( ) returns the year part for a given date.
 ```
 SELECT YEAR( )
 ```
+### YEARWEEK
+YEARWEEK( ) returns the year and week number for a given date.
+```
+SELECT YEARWEEK(date, firstdayofweek)                 # firstdayofweek: Optional. Specifies what day the week starts on.
+```
