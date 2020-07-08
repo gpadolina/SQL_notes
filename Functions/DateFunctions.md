@@ -282,3 +282,8 @@ TO_DAYS( ) returns the number of days between a date and year 0. This is the opp
 ```
 SELECT TO_DAYS(date)
 ```
+### WEEK
+WEEK( ) returns the week number for a given date.
+```
+SELECT WEEK(date, firstdayofweek)                   # firstdayofweek: Optional. Specifies what day the week starts on.
+```
