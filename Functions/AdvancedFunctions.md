@@ -47,3 +47,9 @@ CONVERT( ) converts a value into the specified datatype or character set.
 ```
 SELECT CONVERT(value, type)
 ```
+### CURRENT_USER
+CURRENT_USER( ) returns the user name and host name for the MySQL account that the server used to authenticate
+the current client.
+```
+SELECT CURRENT_USER( )
+```
