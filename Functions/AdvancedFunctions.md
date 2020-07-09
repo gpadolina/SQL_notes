@@ -32,3 +32,8 @@ COALESCE( ) returns the first non-value in a list.
 ```
 SELECT COALESCE(val1, val2, ..., val_n)
 ```
+### CONNECTION_ID
+CONNECTION_ID( ) returns the unique connection ID for the current connection.
+```
+SELECT CONNECTION_ID( )
+```
