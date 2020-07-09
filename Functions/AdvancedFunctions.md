@@ -22,3 +22,8 @@ CASE
     ELSE result
 END;
 ```
+### CAST
+CAST( ) converts a value into the specified datatype.
+```
+SELECT CAST(value AS datatype)
+```
