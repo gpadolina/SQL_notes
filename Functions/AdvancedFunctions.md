@@ -27,3 +27,8 @@ CAST( ) converts a value into the specified datatype.
 ```
 SELECT CAST(value AS datatype)
 ```
+### COALESCE
+COALESCE( ) returns the first non-value in a list.
+```
+SELECT COALESCE(val1, val2, ..., val_n)
+```
