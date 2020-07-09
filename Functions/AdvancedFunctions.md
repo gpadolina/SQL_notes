@@ -37,3 +37,8 @@ CONNECTION_ID( ) returns the unique connection ID for the current connection.
 ```
 SELECT CONNECTION_ID( )
 ```
+### CONV
+CONV( ) converts a number from one numeric base system to another and returns the result as a string value.
+```
+SELECT CONV(number, from_base, to_base)
+```
