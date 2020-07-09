@@ -53,3 +53,8 @@ the current client.
 ```
 SELECT CURRENT_USER( )
 ```
+### DATABASE
+DATABASE( ) returns the name of the current database. Returns NULL if there is no current database.
+```
+SELECT DATABASE( )
+```
