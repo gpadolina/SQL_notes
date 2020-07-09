@@ -42,3 +42,8 @@ CONV( ) converts a number from one numeric base system to another and returns th
 ```
 SELECT CONV(number, from_base, to_base)
 ```
+### CONVERT
+CONVERT( ) converts a value into the specified datatype or character set.
+```
+SELECT CONVERT(value, type)
+```
