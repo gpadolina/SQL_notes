@@ -58,3 +58,8 @@ DATABASE( ) returns the name of the current database. Returns NULL if there is n
 ```
 SELECT DATABASE( )
 ```
+### IF
+IF( ) returns a value if a condition is TRUE or another value if a condition is FALSE.
+```
+SELECT IF(condition, value_if_true, value_if_false)
+```
