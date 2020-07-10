@@ -85,3 +85,9 @@ NULLIF( ) compares two expressions and returns NULL if they are equal. Otherwise
 ```
 SELECT NULLIF(expression1, expression2)
 ```
+### SESSION_USER
+SESSION_USER( ) returns the current user name and host name for the MySQL connection. Same function as SYSTEM_USER( )
+and USER( ).
+```
+SELECT SESSION_USER( )
+```
