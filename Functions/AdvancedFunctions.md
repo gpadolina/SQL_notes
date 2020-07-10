@@ -75,3 +75,8 @@ it returns 0.
 ```
 SELECT ISNULL(expression)
 ```
+### LAST_INSERT_ID
+LAST_INSERT_ID( ) returns the AUTO_INCREMENT id of the last row that has been inserted or updated in a table.
+```
+SELECT LAST_INSERT_INTO(expression)
+```
