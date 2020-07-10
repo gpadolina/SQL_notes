@@ -63,3 +63,8 @@ IF( ) returns a value if a condition is TRUE or another value if a condition is 
 ```
 SELECT IF(condition, value_if_true, value_if_false)
 ```
+### IFNULL
+IFNULL( ) returns a specified value if the expression is NULL. If the expression is NOT NULL, this function returns the expression.
+```
+SELECT IFNULL(expression, alt_Value)
+```
