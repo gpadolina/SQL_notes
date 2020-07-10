@@ -97,3 +97,9 @@ and USER( ).
 ```
 SELECT SYSTEM_USER( )
 ```
+### USER
+USER( ) returns the current user name and host name for the MySQL connection. Same function as SESSION_USER( ) and
+SYSTEM_USER( ).
+```
+SELECT USER( )
+```
