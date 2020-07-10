@@ -103,3 +103,8 @@ SYSTEM_USER( ).
 ```
 SELECT USER( )
 ```
+### VERSION
+VERSION( ) returns the current version of the MySQL database as a string.
+```
+SELECT VERSION( )
+```
