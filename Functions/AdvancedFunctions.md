@@ -80,3 +80,8 @@ LAST_INSERT_ID( ) returns the AUTO_INCREMENT id of the last row that has been in
 ```
 SELECT LAST_INSERT_INTO(expression)
 ```
+### NULLIF
+NULLIF( ) compares two expressions and returns NULL if they are equal. Otherwise, the first expression is returned.
+```
+SELECT NULLIF(expression1, expression2)
+```
